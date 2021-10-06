@@ -1,9 +1,5 @@
 <template>
-    <img
-        class="icon"
-        :src="require(`@/assets/img/${name}.svg`)"
-        alt="Editar job"
-    />
+    <img class="icon" :src="require(`@/assets/img/${name}.svg`)" :alt="name" />
 </template>
 
 <script>

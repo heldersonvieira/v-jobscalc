@@ -1,9 +1,9 @@
 <template>
     <div class="profile__avatar">
-        <div class="profile__name">
+        <nav class="profile__name">
             <h3>Jaqueline</h3>
             <router-link to="/profile">Ver perfil</router-link>
-        </div>
+        </nav>
         <Avatar />
     </div>
 </template>

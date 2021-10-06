@@ -58,4 +58,9 @@ export default {
 .orange {
     background: var(--orange);
 }
+
+.gray {
+    background: var(--text-light-gray);
+    color: var(--text-gray);
+}
 </style>

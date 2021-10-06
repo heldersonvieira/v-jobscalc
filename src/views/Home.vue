@@ -8,20 +8,16 @@
                 <JobInfoItem />
                 <JobInfoItem />
                 <JobInfoItem />
-                <JobInfoItem />
-                <JobInfoItem />
-                <JobInfoItem />
-                <JobInfoItem />
-                <JobInfoItem />
             </ul>
         </Container>
+        <Modal />
     </div>
 </template>
 
 <script>
-import { HeaderHome, Container, JobInfoItem } from '@/components';
+import { HeaderHome, Container, JobInfoItem, Modal } from '@/components';
 export default {
-    components: { HeaderHome, Container, JobInfoItem },
+    components: { HeaderHome, Container, JobInfoItem, Modal },
 };
 </script>
 

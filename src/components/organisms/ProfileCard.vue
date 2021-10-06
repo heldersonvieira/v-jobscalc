@@ -1,32 +1,25 @@
 <template>
-    <Container>
-        <section class="profile-card">
-            <div class="profile">
-                <Avatar />
-                <h3>Jaqueline</h3>
-            </div>
-            <div class="hourly-value">
-                <p>O valor da sua hora é <strong>R$ 75,00 reais</strong></p>
-            </div>
-            <Button route="Home" title="Salvar Dados" />
-        </section>
-    </Container>
+    <section class="profile-card">
+        <div class="profile">
+            <Avatar />
+            <h3>Jaqueline</h3>
+        </div>
+        <div class="hourly-value">
+            <p>O valor da sua hora é <strong>R$ 75,00 reais</strong></p>
+        </div>
+        <Button route="Home" title="Salvar Dados" />
+    </section>
 </template>
 
 <script>
-import { Container, Avatar, Button } from '@/components';
+import { Avatar, Button } from '@/components';
 
 export default {
-    components: { Container, Avatar, Button },
+    components: { Avatar, Button },
 };
 </script>
 
 <style scoped>
-.container {
-    display: flex;
-    align-items: center;
-    height: calc(100vh - 120px);
-}
 .profile-card {
     display: flex;
     flex-direction: column;
@@ -34,8 +27,8 @@ export default {
     justify-content: space-between;
     color: var(--text-gray);
     background: var(--box);
-    width: 32%;
-    height: 78%;
+    width: 45%;
+    height: 80%;
     padding: 4rem;
 }
 

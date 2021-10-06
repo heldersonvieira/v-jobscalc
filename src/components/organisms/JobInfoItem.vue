@@ -33,8 +33,14 @@ export default {
     background: var(--box);
     height: 110px;
     border-radius: 5px;
+    border-left: 4px solid var(--box);
     padding: 0 2rem;
     margin-bottom: 0.8rem;
+}
+
+.about-job:hover {
+    background: linear-gradient(90deg, #ffe5ca 0.45%, #fafafa 34%);
+    border-left: 4px solid var(--orange);
 }
 
 .name {

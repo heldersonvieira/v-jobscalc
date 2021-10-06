@@ -15,12 +15,12 @@
 export default {
     props: {
         subtitle: { type: String, required: true },
-        route: { type: String, required: true },
+        // route: { type: String, required: true },
     },
 
     methods: {
         goBack() {
-            this.$router.push({ name: this.route });
+            this.$router.push({ name: 'Home' });
         },
     },
 };
